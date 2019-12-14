@@ -1,0 +1,116 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: "Cormorant Garamond", serif;
+}
+
+.hero-img {
+  background-image: url(assets/images/diego-ph-fIq0tET6llw-unsplash.jpg);
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+
+}
+
+.hero-text {
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(251, 161, 156, 0.01); /* Black w/opacity/see-through */
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-weight: 100;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 60%;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0px 10px 25px -5px rgba(33, 31, 31, 0.42);
+  border-radius: 3px;
+  border: 0.5px solid rgba(255, 255, 255, 0.433);
+}
+
+.h1 {
+  font-size: 3rem;
+  letter-spacing: 5px;
+}
+
+.h3 {
+  letter-spacing: 3px;
+}
+.container-fluid {
+  position: absolute;
+  top: 0;
+  text-align: center; 
+}
+
+.contact-btn{
+    background-color: #1892a0;
+    border-radius: 3px;
+    border: none;
+    box-shadow: 0px 4px 10px -3px black;
+}
+.logo {
+  position: absolute;
+  top: 0;
+  width: 60px;
+  left: 0;
+}
+
+.nav-list {
+  display: flex;
+  position: relative;
+text-align: center;
+justify-content: center;
+}
+.nav-list li {
+  margin: 10px;
+  
+  text-align: center;
+  list-style: none;
+  display: inline-block;
+  font-size: 1.4rem;
+}
+
+.project-text{
+    margin: 30px;
+    text-align: center;
+}
+
+.portfolio{
+    height: 100vh;
+    border: 1px solid black; 
+   
+}
+.portfolio .card{
+  display: flex;
+  margin: 0 auto;
+    text-align: center;
+}
+.portfolio .card img{
+    min-height: 100%;
+    min-width: 30vh;
+}
+
+
+.tech{
+  margin:20px;
+height: 60vh;
+    
+}
+svg{
+    width:100px;
+    margin: 50px;
+
+   
+}
+
+
+
+
